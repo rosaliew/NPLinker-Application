@@ -1,0 +1,45 @@
+# nplinker.toml — local mode for 11 marine isolates
+
+root_dir = "/home/rosaliewang/projects/nplinker/marine_isolates"
+mode = "local"
+
+[log]
+level = "INFO"
+use_console = true
+
+# Genomics (antiSMASH) settings
+[genomics]
+antismash_dir = "antismash"        # contains GCF_0000000xx.1/ subfolders
+
+# Metabolomics (GNPS) settings
+[metabolomics]
+gnps_dir = "gnps"                   # folder with all GNPS-related files
+spectra = "spectra.mgf"             # consensus MS/MS spectra
+molecular_families = "molecular_families.tsv"
+annotations = "annotations.tsv"
+file_mappings = "file_mappings.tsv" # maps mzXML filenames → ISOLATE-* IDs
+
+# Strain mapping settings
+[mapping]
+strain_mappings = "strain_mappings.json"
+strains_selected = "strains_selected.json"
+
+# MIBiG options
+[mibig]
+to_use = true
+version = "3.1"
+
+# BiG-SCAPE options (keep off for now, but validator wants cutoff & version)
+[bigscape]
+use_bigscape = false
+version = "2"
+cutoff = "0.30"
+parameters = "--mibig_version 3.1 --include_singletons --gcf_cutoffs 0.30"
+
+# GNPS config block required by validator
+[gnps]
+version = "1"
+
+# Scoring methods NPLinker should use
+[scoring]
+methods = ["metcalf"]

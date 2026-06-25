@@ -1,0 +1,57 @@
+{
+  "ISOLATE-1": {
+    "label": "Vibrio 1A01",
+    "genome_id": "GCF_000000001.1",
+    "ms_id": "ISOLATE-1"
+  },
+  "ISOLATE-2": {
+    "label": "Vibrio 6D03",
+    "genome_id": "GCF_000000002.1",
+    "ms_id": "ISOLATE-2"
+  },
+  "ISOLATE-3": {
+    "label": "Phaeobacter B2R04",
+    "genome_id": "GCF_000000003.1",
+    "ms_id": "ISOLATE-3"
+  },
+  "ISOLATE-4": {
+    "label": "Shewanella B2R08",
+    "genome_id": "GCF_000000004.1",
+    "ms_id": "ISOLATE-4"
+  },
+  "ISOLATE-5": {
+    "label": "Roseovarius B2R09",
+    "genome_id": "GCF_000000005.1",
+    "ms_id": "ISOLATE-5"
+  },
+  "ISOLATE-6": {
+    "label": "Colwellia C2M19",
+    "genome_id": "GCF_000000006.1",
+    "ms_id": "ISOLATE-6"
+  },
+  "ISOLATE-7": {
+    "label": "Paracoccus C2R07_2",
+    "genome_id": "GCF_000000007.1",
+    "ms_id": "ISOLATE-7"
+  },
+  "ISOLATE-8": {
+    "label": "Salipiger C3M06",
+    "genome_id": "GCF_000000008.1",
+    "ms_id": "ISOLATE-8"
+  },
+  "ISOLATE-9": {
+    "label": "Acinetobacter D3M06",
+    "genome_id": "GCF_000000009.1",
+    "ms_id": "ISOLATE-9"
+  },
+  "ISOLATE-10": {
+    "label": "Arenibacter D3M17",
+    "genome_id": "GCF_000000010.1",
+    "ms_id": "ISOLATE-10"
+  },
+  "ISOLATE-11": {
+    "label": "Motilimona G1M02",
+    "genome_id": "GCF_000000011.1",
+    "ms_id": "ISOLATE-11"
+  }
+}

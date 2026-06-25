@@ -1,0 +1,8 @@
+marine_isolates/bigscape/bigscape_running_output/
+marine_isolates/bigscape/*.db
+antismash_results/
+gnps_results/
+archives/
+*.zip
+*.tar.gz
+*:Zone.Identifier
